@@ -144,7 +144,7 @@ button:active {
 
 @media screen and (max-width: 576px) {
 	body {
-		font-size: large;
+		font-size: larger;
 	}
 	#content {
 		min-width: 40vh;
@@ -168,6 +168,6 @@ button:active {
 		padding-top: 0em;
 	}
 	footer {
-		font-size: ;
+		font-size: large;
 	}
 }
