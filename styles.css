@@ -37,12 +37,12 @@ h1 {
 	text-shadow: 0.05em 0.05em rgba(0, 0, 0, 0.5);
 	font-family: "Oswald", sans-serif;
 	text-align: center;
-	font-size: 1.9em;
-	background: linear-gradient(rgb(194, 165, 0), rgb(164, 139, 0));
+	font-size: 1.6em;
+	background: linear-gradient(rgb(205, 204, 204), rgb(123, 123, 123));
 	margin-right: 50%;
 	box-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.5);
 	border-radius: 0.2em;
-	border: 0.08em solid rgb(113, 96, 0);
+	border: 0.08em solid rgb(91, 91, 91);
 }
 
 #calculator {
