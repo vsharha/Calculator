@@ -126,11 +126,13 @@ button:active {
 
 @media screen and (max-width: 576px) {
 	#table {
-		height: 80vh;
 		padding: 3em 0.5em;
 		border-radius: 0%;
 		border-right: none;
 		border-left: none;
+	}
+	#content {
+		background-position: 100% top;
 	}
 	#calculator {
 		margin: auto;
