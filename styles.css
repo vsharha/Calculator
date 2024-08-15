@@ -122,3 +122,15 @@ button:active {
 	background: linear-gradient(orangered, rgb(170, 45, 0));
 	border: 0.15em solid rgb(137, 36, 0);
 }
+
+@media screen and (max-width: 576px) {
+	#table {
+		width: 100vw;
+	}
+	#calculator {
+		width: 80%;
+	}
+	h1 {
+		font-size: 1.4em;
+	}
+}
