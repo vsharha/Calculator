@@ -144,7 +144,7 @@ button:active {
 
 @media screen and (max-width: 576px) {
 	body {
-		font-size: larger;
+		font-size: large;
 	}
 	#content {
 		min-width: 40vh;
