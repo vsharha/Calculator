@@ -84,7 +84,7 @@ h1 {
 	color: white;
 
 	box-sizing: border-box;
-	border: 0.15em solid black;
+	border: 0.12em solid black;
 	border-radius: 0.25em;
 
 	box-shadow: 0.15em 0.15em rgba(0, 0, 0, 0.5);
@@ -171,5 +171,8 @@ button:active {
 	}
 	footer {
 		font-size: large;
+	}
+	#screen {
+		border-width: 0.15em;
 	}
 }
