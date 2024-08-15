@@ -29,6 +29,7 @@ html {
 	box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.5);
 	border: 0.2em solid rgb(78, 39, 11);
 	background-size: 100%;
+	background-repeat: repeat;
 }
 
 h1 {
@@ -125,10 +126,10 @@ button:active {
 
 @media screen and (max-width: 576px) {
 	#table {
-		width: 100vw;
+		width: 95vw;
 	}
 	#calculator {
-		width: 80%;
+		width: 90%;
 	}
 	h1 {
 		font-size: 1.4em;
