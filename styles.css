@@ -11,25 +11,43 @@ html {
 	font-family: Helvetica, sans-serif;
 }
 
-#content {
+#background {
 	background: linear-gradient(rgb(0, 108, 108), rgb(0, 74, 74));
 	background-size: 100%;
 	height: 100vh;
 	padding-top: 1em;
 }
 
-#table {
-	background: url("./wood.webp");
+#content {
+	margin-top: 3em;
 	max-width: 75vw;
 	min-width: 25em;
-	margin-top: 3em;
-	padding: 2em;
 	margin: auto;
+}
+
+#table {
+	background: url("./wood.webp");
+
+	padding: 2em;
 	border-radius: 0.5em;
 	box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.5);
 	border: 0.2em solid rgb(78, 39, 11);
 	background-size: 100%;
 	background-repeat: repeat;
+	margin-bottom: 1em;
+}
+
+footer {
+	width: 80%;
+	font-weight: bold;
+	background: rgba(0, 0, 0, 0.2);
+	text-shadow: 0.15em 0.15em rgba(0, 0, 0, 0.5);
+	color: aliceblue;
+	margin: auto;
+	text-align: center;
+	border-radius: 0.2em;
+	font-size: x-large;
+	padding: 0.3em;
 }
 
 h1 {
@@ -125,14 +143,17 @@ button:active {
 }
 
 @media screen and (max-width: 576px) {
-	#table {
+	#content {
 		min-width: 40vh;
 		max-width: 100vw;
+	}
+	#table {
 		padding: 2em 1.5em;
 		border-radius: 0%;
 		border-right: none;
 		border-left: none;
 		border-top: none;
+		margin-bottom: 2em;
 	}
 	#calculator {
 		width: 100%;
@@ -140,7 +161,10 @@ button:active {
 	h1 {
 		font-size: 1.2em;
 	}
-	#content {
+	#background {
 		padding-top: 0em;
+	}
+	footer {
+		font-size: largee;
 	}
 }
