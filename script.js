@@ -119,8 +119,11 @@ function handle_func(func) {
 }
 
 function handle_operations(operation) {
-    if(display == "0" && operation == "-") {
-        handle_number_in(operation);
+    if(display == "0") {
+        if(operation == "-") {
+            handle_number_in(operation);
+        }
+
         return;
     }
 
