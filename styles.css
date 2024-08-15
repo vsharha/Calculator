@@ -126,6 +126,8 @@ button:active {
 
 @media screen and (max-width: 576px) {
 	#table {
+		min-width: 40vh;
+		max-width: 100vw;
 		padding: 3em 2em;
 		border-radius: 0%;
 		border-right: none;
