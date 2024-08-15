@@ -143,17 +143,20 @@ button:active {
 }
 
 @media screen and (max-width: 576px) {
+	body {
+		font-size: large;
+	}
 	#content {
 		min-width: 40vh;
 		max-width: 100vw;
 	}
 	#table {
-		padding: 2em 1.5em;
+		padding: 1em 0.5em;
 		border-radius: 0%;
 		border-right: none;
 		border-left: none;
 		border-top: none;
-		margin-bottom: 1.5em;
+		margin-bottom: 1em;
 	}
 	#calculator {
 		width: 100%;
@@ -165,6 +168,6 @@ button:active {
 		padding-top: 0em;
 	}
 	footer {
-		font-size: largee;
+		font-size: ;
 	}
 }
