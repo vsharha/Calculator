@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 * {
 	margin: 0px;
@@ -54,11 +54,12 @@ h1 {
 	margin-top: 0.5em;
 	color: white;
 	text-shadow: 0.05em 0.05em rgba(0, 0, 0, 0.5);
-	font-family: "Oswald", sans-serif;
+	font-family: "Ubuntu", sans-serif;
+	padding: 0.2em;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	background: linear-gradient(rgb(117, 117, 117), rgb(85, 85, 85));
-	margin-right: 50%;
+	margin-right: 40%;
 	box-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.5);
 	border-radius: 0.2em;
 	border: 0.08em solid rgb(70, 70, 70);
@@ -170,7 +171,8 @@ button:active {
 		padding-top: 0em;
 	}
 	footer {
-		font-size: large;
+		width: 90%;
+		font-size: 1em;
 	}
 	#screen {
 		border-width: 0.15em;
