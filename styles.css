@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: x-large;
+	font-family: Helvetica, sans-serif;
+}
+
+#content {
+	background: linear-gradient(rgb(0, 108, 108), rgb(0, 74, 74));
+	background-size: contain;
+	height: 100vh;
+	padding-top: 1em;
+}
+
+#table {
+	background: url("./wood.webp");
+	max-width: 75vw;
+	min-width: 25em;
+	margin-top: 3em;
+	padding: 2em;
+	margin: auto;
+	border-radius: 0.5em;
+	box-shadow: 0.3em 0.3em rgba(0, 0, 0, 0.5);
+	border: 0.2em solid rgb(78, 39, 11);
+}
+
+h1 {
+	margin-top: 0.5em;
+	color: white;
+	text-shadow: 0.05em 0.05em rgba(0, 0, 0, 0.5);
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+	font-size: 1.9em;
+	background: linear-gradient(rgb(194, 165, 0), rgb(164, 139, 0));
+	margin-right: 50%;
+	box-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.5);
+	border-radius: 0.2em;
+	border: 0.08em solid rgb(113, 96, 0);
+}
+
+#calculator {
+	width: 20em;
+	margin: auto;
+	background: white;
+	padding: 1em;
+	padding-top: 0.1em;
+	border-radius: 0.5em;
+	background: linear-gradient(gray, rgb(76, 76, 76));
+	box-shadow: 0.4em 0.4em rgba(0, 0, 0, 0.5);
+	border: 0.2em solid rgb(48, 48, 48);
+}
+
+#screen {
+	padding: 0.5em;
+	font-family: "Orbitron", sans-serif;
+	background: linear-gradient(green, rgb(0, 86, 0));
+	color: white;
+
+	box-sizing: border-box;
+	border: 0.15em solid black;
+	border-radius: 0.25em;
+
+	font-size: 1.5em;
+
+	box-shadow: 0.15em 0.15em rgba(0, 0, 0, 0.5);
+
+	margin: 1em 0em;
+}
+
+#button-pad {
+	display: grid;
+	gap: 0.5em;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: bold;
+
+	aspect-ratio: 1/1;
+	border-radius: 100%;
+	border: none;
+	box-shadow: 0.25em 0.25em rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+	filter: brightness(85%);
+}
+
+button:active {
+	transform: translateY(0.15em) translateX(0.15em);
+	box-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.5);
+}
+
+.number {
+	background: linear-gradient(antiquewhite, rgb(194, 182, 167));
+	border: 0.15em solid rgb(124, 117, 106);
+}
+
+.operation {
+	color: white;
+	background: linear-gradient(rgb(177, 119, 75), rgb(126, 85, 53));
+	border: 0.15em solid rgb(103, 69, 43);
+}
+
+.function {
+	color: white;
+	background: linear-gradient(rgb(77, 97, 176), rgb(51, 64, 116));
+	border: 0.15em solid rgb(51, 64, 116);
+}
+
+.equal {
+	color: white;
+	background: linear-gradient(orangered, rgb(170, 45, 0));
+	border: 0.15em solid rgb(137, 36, 0);
+}
