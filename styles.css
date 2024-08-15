@@ -57,11 +57,11 @@ h1 {
 	font-family: "Oswald", sans-serif;
 	text-align: center;
 	font-size: 1.6em;
-	background: linear-gradient(rgb(173, 173, 173), rgb(123, 123, 123));
+	background: linear-gradient(rgb(117, 117, 117), rgb(85, 85, 85));
 	margin-right: 50%;
 	box-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.5);
 	border-radius: 0.2em;
-	border: 0.08em solid rgb(91, 91, 91);
+	border: 0.08em solid rgb(70, 70, 70);
 }
 
 #calculator {
@@ -77,7 +77,8 @@ h1 {
 }
 
 #screen {
-	padding: 0.5em;
+	padding: 0.25em;
+	font-size: 2em;
 	font-family: "Orbitron", sans-serif;
 	background: linear-gradient(green, rgb(0, 86, 0));
 	color: white;
@@ -85,8 +86,6 @@ h1 {
 	box-sizing: border-box;
 	border: 0.15em solid black;
 	border-radius: 0.25em;
-
-	font-size: 1.5em;
 
 	box-shadow: 0.15em 0.15em rgba(0, 0, 0, 0.5);
 
@@ -162,7 +161,10 @@ button:active {
 		width: 100%;
 	}
 	h1 {
-		font-size: 1.5em;
+		font-size: 1.8em;
+	}
+	button {
+		font-size: 1.4em;
 	}
 	#background {
 		padding-top: 0em;
