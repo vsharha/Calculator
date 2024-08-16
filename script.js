@@ -63,7 +63,7 @@ function delete_char() {
 function change_sign() {
     let number = Number(display);
 
-    if(number !== NaN) {
+    if(number) {
         calculation = -number;
         update_screen(calculation);
     }

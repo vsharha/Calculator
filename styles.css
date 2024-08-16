@@ -9,13 +9,11 @@
 html {
 	font-size: x-large;
 	font-family: Helvetica, sans-serif;
-}
 
-#background {
 	background: linear-gradient(rgb(0, 108, 108), rgb(0, 74, 74));
-	background-size: 100%;
+	background-attachment: fixed;
 	height: 100vh;
-	padding-top: 1em;
+	padding: 1em;
 }
 
 #content {
@@ -146,6 +144,9 @@ button:active {
 	body {
 		font-size: large;
 	}
+	html {
+		padding: 0%;
+	}
 	#content {
 		min-width: 40vh;
 		max-width: 100vw;
@@ -166,9 +167,6 @@ button:active {
 	}
 	button {
 		font-size: 1.4em;
-	}
-	#background {
-		padding-top: 0em;
 	}
 	footer {
 		width: 90%;
