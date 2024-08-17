@@ -18,11 +18,7 @@ function onReady() {
 	}
 }
 
-if (document.readyState !== "loading") {
-	onReady();
-} else {
-	document.addEventListener("DOMContentLoaded", onReady());
-}
+window.onload = onReady();
 
 // screen
 
