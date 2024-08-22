@@ -36,16 +36,20 @@ html {
 }
 
 footer {
-	width: 80%;
 	font-weight: bold;
-	background: rgba(0, 0, 0, 0.2);
 	text-shadow: 0.15em 0.15em rgba(0, 0, 0, 0.5);
 	color: aliceblue;
 	margin: auto;
 	text-align: center;
-	border-radius: 0.2em;
 	font-size: x-large;
+}
+
+footer p {
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 0.2em;
 	padding: 0.3em;
+	margin: auto;
+	width: fit-content;
 }
 
 h1 {
@@ -168,7 +172,7 @@ button:active {
 	button {
 		font-size: 1.4em;
 	}
-	footer {
+	footer p {
 		width: 90%;
 		font-size: 1em;
 	}
