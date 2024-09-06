@@ -147,9 +147,6 @@ button:active {
 	body {
 		font-size: large;
 	}
-	html {
-		padding: 0%;
-	}
 	#content {
 		min-width: 40vh;
 		max-width: 100vw;
@@ -160,6 +157,7 @@ button:active {
 		border-right: none;
 		border-left: none;
 		border-top: none;
+		margin: 0;
 		margin-bottom: 1em;
 	}
 	#calculator {
