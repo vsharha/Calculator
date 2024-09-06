@@ -4,6 +4,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-size: 0.9rem;
 }
 
 html {
@@ -12,12 +13,10 @@ html {
 
 	background: linear-gradient(rgb(0, 108, 108), rgb(0, 74, 74));
 	background-attachment: fixed;
-	height: 100vh;
-	padding: 1em;
 }
 
 #content {
-	margin-top: 3em;
+	margin: 3em 0em;
 	max-width: 75vw;
 	min-width: 25em;
 	margin: auto;
@@ -32,7 +31,7 @@ html {
 	border: 0.2em solid rgb(78, 39, 11);
 	background-size: 100%;
 	background-repeat: repeat;
-	margin-bottom: 1em;
+	margin: 1rem;
 }
 
 footer {
