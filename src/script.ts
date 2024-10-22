@@ -4,7 +4,7 @@ var display = "";
 
 var last_op = "";
 
-const buttons = document.querySelectorAll("button");
+let buttons: NodeListOf<HTMLElement> = document.querySelectorAll("button");
 
 // on ready
 
@@ -18,11 +18,11 @@ function onReady() {
 	}
 }
 
-window.onload = onReady();
+window.onload = onReady;
 
 // screen
 
-function update_screen(value = display) {
+function update_screen(value: any = display) {
 	if (value == "") {
 		value = "0";
 	}
@@ -32,7 +32,7 @@ function update_screen(value = display) {
 	document.querySelector("#calculator #screen").innerHTML = display;
 }
 
-function update_calculation(value) {
+function update_calculation(value: number) {
 	previous_calculation = calculation;
 	calculation = value;
 	update_screen(calculation);
@@ -69,7 +69,7 @@ function change_sign() {
 
 // buttons
 
-function process_input(el) {
+function process_input(el: HTMLElement) {
 	let value = el.innerHTML;
 
 	switch (el.className) {
@@ -88,7 +88,7 @@ function process_input(el) {
 	}
 }
 
-function handle_number_in(number) {
+function handle_number_in(number: string) {
 	if (number == "." && display.includes(".")) {
 		return;
 	}
@@ -102,7 +102,7 @@ function handle_number_in(number) {
 	update_screen();
 }
 
-function handle_func(func) {
+function handle_func(func: string) {
 	switch (func) {
 		case "AC":
 			update_calculation(0);
@@ -116,7 +116,7 @@ function handle_func(func) {
 	}
 }
 
-function handle_operations(operation) {
+function handle_operations(operation: string) {
 	if (display == "0") {
 		if (operation == "-") {
 			handle_number_in(operation);
